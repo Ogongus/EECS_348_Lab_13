@@ -47,5 +47,14 @@ void run_test(const string& test_name, const vector<int>& attendance) {
 }
 
 int main() {
-    
+    cout << "Lab 13: Debugging and Testing" << endl;
+
+    // Question 3
+    run_test("Question 3: Fault executed, no error state", {1, 0, 0, 0, 1, 1, 1, 1, 1, 1});
+
+    // Question 4
+    run_test("\nQuestion 4: Error state, no failure", {0, 1, 1, 1, 1, 1, 1, 1, 1, 1});
+
+    // Question 5
+    run_test("\nQuestion 5: Results in failure", {0, 0, 0, 1, 1, 1, 1, 1, 1, 1});
 }
