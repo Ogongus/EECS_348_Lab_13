@@ -10,5 +10,8 @@ outputs.
 	A) It's not possible. The fault is always executed regardless of the input.
 
 3) Define a test case that executes the fault but does not result in an error state.
+	A) [1, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+
 4) Define a test case that results in an error state but not a failure.
+	A) 
 5) Define a test case that results in failure.
