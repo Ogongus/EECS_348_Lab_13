@@ -18,3 +18,12 @@ bool faillecture_correct(const vector<int>& attendance_records) {
     return absent_count >= 3;
 }
 
+void print_attendance(const vector<int>& attendance) {
+    cout << "{";
+    for (int i = 0; i < attendance.size(); ++i) {
+        cout << attendance[i];
+        if (i < attendance.size() - 1) cout << ", ";
+    }
+    cout << "}";
+}
+
