@@ -13,7 +13,7 @@ outputs.
 	A) [1, 0, 0, 0, 1, 1, 1, 1, 1, 1]
 
 4) Define a test case that results in an error state but not a failure.
-	A) [0, 0, 0, 0, 1, 1, 1, 1, 1, 1]
+	A) [0, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 
 5) Define a test case that results in failure.
-	A) [0, 1, 1, 0, 0, 1, 1, 1, 1, 1]
+	A) [0, 0, 0, 1, 1, 1, 1, 1, 1, 1]
